@@ -7,344 +7,367 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0393443474587D3175DD26E980D5C2A7 /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 37E9850CAF51231F87401C9D5963EE39 /* SocketRocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1275DABFC1FC4FFC33177F8792D386AB /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7932176CAC4E66CD1DF6CF8B352798BC /* SocketRocket-dummy.m */; };
-		1F01D83724433B88476BB3FEB2856E46 /* SocketRocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6006CA1202529404CCB0FA1975B10213 /* SocketRocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B4D2A71C7790D5C95634F3B6870AE0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4FB972C2197590ABE2C956365E8FEF /* Foundation.framework */; };
-		47AEB8B610CEBF9024943D8C33C15755 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F8530D7E9B73F4AE3351862305E079 /* CFNetwork.framework */; };
-		4B34E4FBB4139C9E9A77BD7FB18A0686 /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = BD74F82EA2CCB617119AE5011205E40C /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C9B6D2B6146D944B5E45AEE4AFC3EAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4FB972C2197590ABE2C956365E8FEF /* Foundation.framework */; };
-		5DD4C95517216F0E87C24D75EAE50CC3 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA45DB3EC5BD8343FDFBC53831394EE /* SocketRocket.framework */; };
-		6DBF30D0AC1BAB02D96FE152C3A3502C /* StompClientLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0074CD1F4B56501515386031F7FE6011 /* StompClientLib-dummy.m */; };
-		83878A94EECA802E52404A1108FFEB32 /* Pods-StompClientLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CA697B1E5D9F5DA7B1FA7C24836754 /* Pods-StompClientLib_Tests-dummy.m */; };
-		89B5A9DFD6D27A4C404F6075B7635997 /* StompClientLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 634AAE7C9B3B103AAC00224C4DE98245 /* StompClientLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9502E59ED0E837FA050AD4A7AFB11B1E /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0898C057D730CBD238D8673C57F96246 /* SRWebSocket.m */; };
-		AB421DE7D80F519BC1AA7C05D59E424F /* StompClientLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EFF8D3A4D83FFC8C724B255F3CDF4E /* StompClientLib.swift */; };
-		D39570908C3DCF5D8D39150D677F48F6 /* Pods-StompClientLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21BABA47C39B6DBFD04AE5242E0CC92F /* Pods-StompClientLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4A9644714E5DF928A6CE08676A5E4F4 /* Pods-StompClientLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAE87C25391C8F37B0A13124C855424 /* Pods-StompClientLib_Example-dummy.m */; };
-		EAD44EB32F1642F34935A36433D1A6A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4FB972C2197590ABE2C956365E8FEF /* Foundation.framework */; };
-		EC34B830DAFD323B2890473CF3014DB5 /* Pods-StompClientLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9712015D75A8FB8A785259F215DE68FF /* Pods-StompClientLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED51C24B1B3A4EA83AFE63FE8893B68E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4FB972C2197590ABE2C956365E8FEF /* Foundation.framework */; };
-		F02FCCF45EC7FAA8F2D80E323F734E45 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1A05D822BBFB2E25D3657B831F260E /* Security.framework */; };
+		29011FE74D1A5F88CE016BD016D0AB27 /* Pods-StompClientLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 352E3145E63342FBE26A9CB5CC7E0E55 /* Pods-StompClientLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D0BA1E249F2763F470742903C9E81C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8916CD1D3F2CBEE911D94D346FC9DC /* Foundation.framework */; };
+		48183283577944F747ACADF42FA13033 /* StompClientLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A7784E8D5C69918AA5FA56545DD55 /* StompClientLib.swift */; };
+		605514663A0ABF6E9B2F7D3362984EDA /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF84761A9BB49928912615B1A94F6CDB /* SocketRocket.framework */; };
+		735DFE5216ED66A16259B56CAB3B46CF /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BB500078F93946C3AB2BB7C33B5603 /* SocketRocket-dummy.m */; };
+		73B4B4972C5D3416AA4F2C65F5BE3305 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7452C239F5CF1A5F27DCC1EF435B0B /* SRWebSocket.m */; };
+		778D0B3A3BFC6B74234D39F9EDCF3659 /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 8832809CE6F5ABF08E5916C5E907EC16 /* SocketRocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		856899F6B41AC6FE6B6B4B992C5149EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8916CD1D3F2CBEE911D94D346FC9DC /* Foundation.framework */; };
+		90D1093BB7E8EC77C298E03F92E8E336 /* Pods-StompClientLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 800D2DABE37DAA4D7A95581CF520010E /* Pods-StompClientLib_Example-dummy.m */; };
+		9C49D3B0A5493179743E40127BFCD5C7 /* Pods-StompClientLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A10B01F9904E7EF40129397EAA0DE5B4 /* Pods-StompClientLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E2B1AC4FC728208BB79B52BFEB2D78F /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 83670A4972B101D85A1DADD0862004FF /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A76B3FBFD4E21BF27C97B880955B9024 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6686B131596461C96AAADDADF0DC2C0 /* Security.framework */; };
+		AC6E13391CF256137797D1705274013F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA5607281B977E9F73E77EA51BCAFE7 /* CFNetwork.framework */; };
+		AFCC22B68ABDE52031E93F0F719C122B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8916CD1D3F2CBEE911D94D346FC9DC /* Foundation.framework */; };
+		BA8454C9169CE7880B6E5247FEDFBD55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8916CD1D3F2CBEE911D94D346FC9DC /* Foundation.framework */; };
+		BC8A57A47046D234DC6203EA22B36A26 /* StompClientLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0634A8CE429B07364F1A42368A790299 /* StompClientLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1673306D2528E24477E098832882D05 /* SocketRocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7170E073E4B1CDDAB72607430B713FC0 /* SocketRocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3713C585C33E6E7B8920DC37A131C2F /* Pods-StompClientLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1237A52F1B030A0596A0987CC011FEC7 /* Pods-StompClientLib_Tests-dummy.m */; };
+		F4ABC50E363C22D7AD42EEF51FD005C6 /* StompClientLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C12DEDC501FC8802E2CCCCDBF6400921 /* StompClientLib-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		34D9A7FFE82910697AC5E46A04D93435 /* PBXContainerItemProxy */ = {
+		19BC17B49C9966213C32E39617C73412 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B831C80B9164D5EA5477BA5B1F1AF683;
+			remoteGlobalIDString = F1A5776A8C3973BEF6B18390BAFE3713;
+			remoteInfo = "Pods-StompClientLib_Example";
+		};
+		3548B2DA3DEAD81FAC2A212450475408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1948D0B63D2CF6A48E18B0B292BC6091;
+			remoteInfo = SocketRocket;
+		};
+		4CADB67D65B2FAA4EE015B384944204E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1948D0B63D2CF6A48E18B0B292BC6091;
+			remoteInfo = SocketRocket;
+		};
+		D28A8ECDF98768F08751A249E2B24617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1948D0B63D2CF6A48E18B0B292BC6091;
+			remoteInfo = SocketRocket;
+		};
+		E23D527D1305D738B109B7241A7A8E28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD357877094CC6561657F2D15837D659;
 			remoteInfo = StompClientLib;
-		};
-		3E1C5A268F095880499E61249E4EC145 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 76E7308A8059D57433F7064E22F40536;
-			remoteInfo = SocketRocket;
-		};
-		7778CE6999BDB5667251B7E4FEA5C084 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 76E7308A8059D57433F7064E22F40536;
-			remoteInfo = SocketRocket;
-		};
-		A81DCC13E55DD640E8FDD84BF5EFF508 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 76E7308A8059D57433F7064E22F40536;
-			remoteInfo = SocketRocket;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0074CD1F4B56501515386031F7FE6011 /* StompClientLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StompClientLib-dummy.m"; sourceTree = "<group>"; };
-		06FA0348E6D3CA5B6645DD7838DC92D0 /* StompClientLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StompClientLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0898C057D730CBD238D8673C57F96246 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
-		08CA697B1E5D9F5DA7B1FA7C24836754 /* Pods-StompClientLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StompClientLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		16B9767AB407DD1C6D94745A72E15562 /* Pods-StompClientLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StompClientLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1D70A861A725E2C036B47A3E99FD460B /* Pods-StompClientLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-StompClientLib_Example.modulemap"; sourceTree = "<group>"; };
-		1DAC3766AEEFAEC0D84806DB296341A5 /* StompClientLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = StompClientLib.modulemap; sourceTree = "<group>"; };
-		1F78CC2674EE988A856B1B6FC1EA15DE /* Pods-StompClientLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StompClientLib_Example-resources.sh"; sourceTree = "<group>"; };
-		21BABA47C39B6DBFD04AE5242E0CC92F /* Pods-StompClientLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StompClientLib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2D610DD16FD34911BAB325C4DD10EEB1 /* Pods_StompClientLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StompClientLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37E9850CAF51231F87401C9D5963EE39 /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
-		38A2A91FD5F99B1A8AEDC8B9AD660C62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F9D7F690521001F89A07E96A4CA2969 /* Pods-StompClientLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StompClientLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4B25B68109E2B8C5B35F0A73504F1705 /* SocketRocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SocketRocket.modulemap; sourceTree = "<group>"; };
-		538737BED43BD8F031C86732CC75CB81 /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
-		599AAA7892FDB3B2153C7652091BA5B7 /* StompClientLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StompClientLib.xcconfig; sourceTree = "<group>"; };
-		5FA45DB3EC5BD8343FDFBC53831394EE /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6006CA1202529404CCB0FA1975B10213 /* SocketRocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-umbrella.h"; sourceTree = "<group>"; };
-		634AAE7C9B3B103AAC00224C4DE98245 /* StompClientLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StompClientLib-umbrella.h"; sourceTree = "<group>"; };
-		74ADCE8C63EC7114A7255AA12AEF50D5 /* StompClientLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StompClientLib-prefix.pch"; sourceTree = "<group>"; };
-		7932176CAC4E66CD1DF6CF8B352798BC /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
-		7FA6E6B2C39374C4931C72502DACE92E /* Pods-StompClientLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StompClientLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		81F8530D7E9B73F4AE3351862305E079 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		87D31B42F38B0C11E3AA6EFF0A812DCC /* Pods-StompClientLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StompClientLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8B4FB972C2197590ABE2C956365E8FEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		90097BC5289334845AF0830CB6DBBF68 /* Pods_StompClientLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StompClientLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9712015D75A8FB8A785259F215DE68FF /* Pods-StompClientLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StompClientLib_Example-umbrella.h"; sourceTree = "<group>"; };
-		9A1A05D822BBFB2E25D3657B831F260E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		9A33F57D14BABB8E67F58C0FCF2D7CF8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9E5C013CFD3498C6DA4D139EE72CABC0 /* Pods-StompClientLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StompClientLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9FAFC896148BAC2B2B61C2F118AFF3FB /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
-		A9088978D29A95C02A633E1726866085 /* Pods-StompClientLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StompClientLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B0A78EE3EE41E54285E3A7A9217696FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B74BD804C95981055BF7984B9B52972A /* Pods-StompClientLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StompClientLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B7FB240AB165387D7171E2EE786D0C21 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD74F82EA2CCB617119AE5011205E40C /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
-		BEAE87C25391C8F37B0A13124C855424 /* Pods-StompClientLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StompClientLib_Example-dummy.m"; sourceTree = "<group>"; };
-		BF798D1A9CCC4CAF5F878F248D6D405D /* Pods-StompClientLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StompClientLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C32704451549EE4A2958B1869572BC2E /* Pods-StompClientLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StompClientLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C476E6E30888F793733CFA76B788F6B2 /* Pods-StompClientLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StompClientLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C8B05882A8B89DA588C553AE792D0F40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8EFF8D3A4D83FFC8C724B255F3CDF4E /* StompClientLib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StompClientLib.swift; path = StompClientLib/Classes/StompClientLib.swift; sourceTree = "<group>"; };
-		DFFBA7603B41606742AE3186F18067BB /* Pods-StompClientLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-StompClientLib_Tests.modulemap"; sourceTree = "<group>"; };
-		F75F60FEBE69F53F87AF7AB64BBD07D2 /* Pods-StompClientLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StompClientLib_Tests-resources.sh"; sourceTree = "<group>"; };
+		0634A8CE429B07364F1A42368A790299 /* StompClientLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StompClientLib-umbrella.h"; sourceTree = "<group>"; };
+		0D374BF941D2EEA091A6B26D8557993F /* SocketRocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SocketRocket-Info.plist"; sourceTree = "<group>"; };
+		1237A52F1B030A0596A0987CC011FEC7 /* Pods-StompClientLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StompClientLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		13526D37F559195E7807047252CB7675 /* StompClientLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "StompClientLib-Info.plist"; sourceTree = "<group>"; };
+		13D97DCFB8796F0973A15718D1799A5C /* Pods-StompClientLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StompClientLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1E7452C239F5CF1A5F27DCC1EF435B0B /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
+		1F327C5E4CABBAE9134100DE9B6303F8 /* Pods-StompClientLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StompClientLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2081C1EE39F0EF64CC88A8369CE54BDB /* Pods_StompClientLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StompClientLib_Example.framework; path = "Pods-StompClientLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE8585B70A920F7D4A97756C5093F1A /* StompClientLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StompClientLib.debug.xcconfig; sourceTree = "<group>"; };
+		2F8916CD1D3F2CBEE911D94D346FC9DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32A79104B6DD4E7BE2C10043730C6EFF /* Pods_StompClientLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StompClientLib_Tests.framework; path = "Pods-StompClientLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		352E3145E63342FBE26A9CB5CC7E0E55 /* Pods-StompClientLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StompClientLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		38C59ADED07962C73869AEE77E82DD87 /* StompClientLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StompClientLib.framework; path = StompClientLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCD1BBE543C395C0CDEE838394B0C1D /* Pods-StompClientLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StompClientLib_Example.modulemap"; sourceTree = "<group>"; };
+		4E44290CF4247847835147229CD0D088 /* Pods-StompClientLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StompClientLib_Tests.modulemap"; sourceTree = "<group>"; };
+		59816F5C0BFFACC3536D837B29D86FED /* Pods-StompClientLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StompClientLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5ADB7FEE8478CED9B87CA2279ECC86FF /* Pods-StompClientLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StompClientLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CA5607281B977E9F73E77EA51BCAFE7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		66E80201F9E2A81D4AF7DA344A57F7C2 /* SocketRocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.release.xcconfig; sourceTree = "<group>"; };
+		7170E073E4B1CDDAB72607430B713FC0 /* SocketRocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-umbrella.h"; sourceTree = "<group>"; };
+		73EFDEE8AC2AB29BBE9942D6C669FCC9 /* SocketRocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.debug.xcconfig; sourceTree = "<group>"; };
+		754373D2A56ED1BFE9F95DF3F18561BD /* StompClientLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StompClientLib.release.xcconfig; sourceTree = "<group>"; };
+		783335BBA77CE3BED40F82A70250D107 /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
+		7AB9B8DBBD6C8AED721F2AF3DB9FE3F1 /* Pods-StompClientLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StompClientLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7D4BBB3BF1EA77A9712324818233E07E /* Pods-StompClientLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StompClientLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		800D2DABE37DAA4D7A95581CF520010E /* Pods-StompClientLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StompClientLib_Example-dummy.m"; sourceTree = "<group>"; };
+		811666FBC93D5F468117372D03944992 /* SocketRocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SocketRocket.modulemap; sourceTree = "<group>"; };
+		83670A4972B101D85A1DADD0862004FF /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
+		85A01882ED06DFEA2E0CE78BCDB204A7 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocketRocket.framework; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8832809CE6F5ABF08E5916C5E907EC16 /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
+		8A12244E33DB00265A911EEA8F2E2AA5 /* StompClientLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = StompClientLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8D887D8790B7C4FF2201E2E3A0592F4C /* Pods-StompClientLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StompClientLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		9299411DF93F1646A3489C68307215F6 /* Pods-StompClientLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StompClientLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		931A7784E8D5C69918AA5FA56545DD55 /* StompClientLib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StompClientLib.swift; path = Sources/StompClientLib/Classes/StompClientLib.swift; sourceTree = "<group>"; };
+		965A8C347D8A66F1318A21DC914F1104 /* Pods-StompClientLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StompClientLib_Example-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A10B01F9904E7EF40129397EAA0DE5B4 /* Pods-StompClientLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StompClientLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A687032584369F2B48BBD222CD8CD112 /* Pods-StompClientLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StompClientLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6686B131596461C96AAADDADF0DC2C0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		BD034980F421A95985E505EECE43E486 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C12DEDC501FC8802E2CCCCDBF6400921 /* StompClientLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StompClientLib-dummy.m"; sourceTree = "<group>"; };
+		CF84761A9BB49928912615B1A94F6CDB /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA834868F50EB5336BD122E164FF0369 /* StompClientLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StompClientLib-prefix.pch"; sourceTree = "<group>"; };
+		DE46D491A8F201B0F61FCD2B86F5A988 /* Pods-StompClientLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StompClientLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EEB5E6EA43E44ECB551F6B39BA8B39F2 /* StompClientLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StompClientLib.modulemap; sourceTree = "<group>"; };
+		F0D960E02C3A8643C8D651F7267E60EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F4BB500078F93946C3AB2BB7C33B5603 /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
+		F92B00797719CE31C220F87A05001950 /* Pods-StompClientLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StompClientLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		108D7A79C55113F77B2134AA052C21A4 /* Frameworks */ = {
+		1DBAAC2F2729EC673A7D9A927AD1E75A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED51C24B1B3A4EA83AFE63FE8893B68E /* Foundation.framework in Frameworks */,
+				856899F6B41AC6FE6B6B4B992C5149EC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		525807D8C19FBFFBB75564EA0924BE4B /* Frameworks */ = {
+		48232FD7F3743D57DF16D7494B73FAC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47AEB8B610CEBF9024943D8C33C15755 /* CFNetwork.framework in Frameworks */,
-				5C9B6D2B6146D944B5E45AEE4AFC3EAD /* Foundation.framework in Frameworks */,
-				F02FCCF45EC7FAA8F2D80E323F734E45 /* Security.framework in Frameworks */,
+				BA8454C9169CE7880B6E5247FEDFBD55 /* Foundation.framework in Frameworks */,
+				605514663A0ABF6E9B2F7D3362984EDA /* SocketRocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6922A9995258DA1711A6B257621048C5 /* Frameworks */ = {
+		56AC35E789C811CE09501582CCA2174A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B4D2A71C7790D5C95634F3B6870AE0C /* Foundation.framework in Frameworks */,
-				5DD4C95517216F0E87C24D75EAE50CC3 /* SocketRocket.framework in Frameworks */,
+				AC6E13391CF256137797D1705274013F /* CFNetwork.framework in Frameworks */,
+				AFCC22B68ABDE52031E93F0F719C122B /* Foundation.framework in Frameworks */,
+				A76B3FBFD4E21BF27C97B880955B9024 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E95E3EBDF7DC4395A9BB91836FD8251C /* Frameworks */ = {
+		E498F374778E40F52FB0275027475D24 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAD44EB32F1642F34935A36433D1A6A8 /* Foundation.framework in Frameworks */,
+				2D0BA1E249F2763F470742903C9E81C0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BCEBE9D38D6453FC1223B72B412E5B2 /* Frameworks */ = {
+		09F3E6A1737F6BAC5C6BB2A9EAE1C413 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5FA45DB3EC5BD8343FDFBC53831394EE /* SocketRocket.framework */,
-				888B4F781E1372B03D0269A2918E530A /* iOS */,
+				CF84761A9BB49928912615B1A94F6CDB /* SocketRocket.framework */,
+				84F34EABADC4425D0B6A066617C46D81 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		398524A35472FFC4A23DA781E8D50396 /* Development Pods */ = {
+		517AB98C56D492D4B230E5B2BEC75C16 /* Pods-StompClientLib_Example */ = {
 			isa = PBXGroup;
 			children = (
-				43BBF462B1766EF1AC66347893F8F14D /* StompClientLib */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		43BBF462B1766EF1AC66347893F8F14D /* StompClientLib */ = {
-			isa = PBXGroup;
-			children = (
-				D8EFF8D3A4D83FFC8C724B255F3CDF4E /* StompClientLib.swift */,
-				E067DE6209171D1662E31A02F7527614 /* Support Files */,
-			);
-			name = StompClientLib;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		4FF663BB937700D1580BDAB7F3EF0D97 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8DC3187DB7279173E5C52E8BE8D2FEB1 /* SocketRocket */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		58568D630B39E76CA642F3332E1A45D5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9A33F57D14BABB8E67F58C0FCF2D7CF8 /* Info.plist */,
-				4B25B68109E2B8C5B35F0A73504F1705 /* SocketRocket.modulemap */,
-				9FAFC896148BAC2B2B61C2F118AFF3FB /* SocketRocket.xcconfig */,
-				7932176CAC4E66CD1DF6CF8B352798BC /* SocketRocket-dummy.m */,
-				538737BED43BD8F031C86732CC75CB81 /* SocketRocket-prefix.pch */,
-				6006CA1202529404CCB0FA1975B10213 /* SocketRocket-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SocketRocket";
-			sourceTree = "<group>";
-		};
-		7142661ED2A3A80C41B0D6E67D0573A7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2D610DD16FD34911BAB325C4DD10EEB1 /* Pods_StompClientLib_Example.framework */,
-				90097BC5289334845AF0830CB6DBBF68 /* Pods_StompClientLib_Tests.framework */,
-				B7FB240AB165387D7171E2EE786D0C21 /* SocketRocket.framework */,
-				06FA0348E6D3CA5B6645DD7838DC92D0 /* StompClientLib.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				398524A35472FFC4A23DA781E8D50396 /* Development Pods */,
-				0BCEBE9D38D6453FC1223B72B412E5B2 /* Frameworks */,
-				4FF663BB937700D1580BDAB7F3EF0D97 /* Pods */,
-				7142661ED2A3A80C41B0D6E67D0573A7 /* Products */,
-				C2BB4AA468FEF1422A315A992C1DDB5B /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		888B4F781E1372B03D0269A2918E530A /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				81F8530D7E9B73F4AE3351862305E079 /* CFNetwork.framework */,
-				8B4FB972C2197590ABE2C956365E8FEF /* Foundation.framework */,
-				9A1A05D822BBFB2E25D3657B831F260E /* Security.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		8DC3187DB7279173E5C52E8BE8D2FEB1 /* SocketRocket */ = {
-			isa = PBXGroup;
-			children = (
-				37E9850CAF51231F87401C9D5963EE39 /* SocketRocket.h */,
-				BD74F82EA2CCB617119AE5011205E40C /* SRWebSocket.h */,
-				0898C057D730CBD238D8673C57F96246 /* SRWebSocket.m */,
-				58568D630B39E76CA642F3332E1A45D5 /* Support Files */,
-			);
-			path = SocketRocket;
-			sourceTree = "<group>";
-		};
-		B4E5FC0091C3DF99B209E4C0E2C8DBBF /* Pods-StompClientLib_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				B0A78EE3EE41E54285E3A7A9217696FC /* Info.plist */,
-				DFFBA7603B41606742AE3186F18067BB /* Pods-StompClientLib_Tests.modulemap */,
-				7FA6E6B2C39374C4931C72502DACE92E /* Pods-StompClientLib_Tests-acknowledgements.markdown */,
-				3F9D7F690521001F89A07E96A4CA2969 /* Pods-StompClientLib_Tests-acknowledgements.plist */,
-				08CA697B1E5D9F5DA7B1FA7C24836754 /* Pods-StompClientLib_Tests-dummy.m */,
-				C32704451549EE4A2958B1869572BC2E /* Pods-StompClientLib_Tests-frameworks.sh */,
-				F75F60FEBE69F53F87AF7AB64BBD07D2 /* Pods-StompClientLib_Tests-resources.sh */,
-				21BABA47C39B6DBFD04AE5242E0CC92F /* Pods-StompClientLib_Tests-umbrella.h */,
-				9E5C013CFD3498C6DA4D139EE72CABC0 /* Pods-StompClientLib_Tests.debug.xcconfig */,
-				C476E6E30888F793733CFA76B788F6B2 /* Pods-StompClientLib_Tests.release.xcconfig */,
-			);
-			name = "Pods-StompClientLib_Tests";
-			path = "Target Support Files/Pods-StompClientLib_Tests";
-			sourceTree = "<group>";
-		};
-		C2BB4AA468FEF1422A315A992C1DDB5B /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F4EF190C12ED319D69E6344A458FF760 /* Pods-StompClientLib_Example */,
-				B4E5FC0091C3DF99B209E4C0E2C8DBBF /* Pods-StompClientLib_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		E067DE6209171D1662E31A02F7527614 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C8B05882A8B89DA588C553AE792D0F40 /* Info.plist */,
-				1DAC3766AEEFAEC0D84806DB296341A5 /* StompClientLib.modulemap */,
-				599AAA7892FDB3B2153C7652091BA5B7 /* StompClientLib.xcconfig */,
-				0074CD1F4B56501515386031F7FE6011 /* StompClientLib-dummy.m */,
-				74ADCE8C63EC7114A7255AA12AEF50D5 /* StompClientLib-prefix.pch */,
-				634AAE7C9B3B103AAC00224C4DE98245 /* StompClientLib-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/StompClientLib";
-			sourceTree = "<group>";
-		};
-		F4EF190C12ED319D69E6344A458FF760 /* Pods-StompClientLib_Example */ = {
-			isa = PBXGroup;
-			children = (
-				38A2A91FD5F99B1A8AEDC8B9AD660C62 /* Info.plist */,
-				1D70A861A725E2C036B47A3E99FD460B /* Pods-StompClientLib_Example.modulemap */,
-				B74BD804C95981055BF7984B9B52972A /* Pods-StompClientLib_Example-acknowledgements.markdown */,
-				87D31B42F38B0C11E3AA6EFF0A812DCC /* Pods-StompClientLib_Example-acknowledgements.plist */,
-				BEAE87C25391C8F37B0A13124C855424 /* Pods-StompClientLib_Example-dummy.m */,
-				A9088978D29A95C02A633E1726866085 /* Pods-StompClientLib_Example-frameworks.sh */,
-				1F78CC2674EE988A856B1B6FC1EA15DE /* Pods-StompClientLib_Example-resources.sh */,
-				9712015D75A8FB8A785259F215DE68FF /* Pods-StompClientLib_Example-umbrella.h */,
-				16B9767AB407DD1C6D94745A72E15562 /* Pods-StompClientLib_Example.debug.xcconfig */,
-				BF798D1A9CCC4CAF5F878F248D6D405D /* Pods-StompClientLib_Example.release.xcconfig */,
+				4BCD1BBE543C395C0CDEE838394B0C1D /* Pods-StompClientLib_Example.modulemap */,
+				59816F5C0BFFACC3536D837B29D86FED /* Pods-StompClientLib_Example-acknowledgements.markdown */,
+				A687032584369F2B48BBD222CD8CD112 /* Pods-StompClientLib_Example-acknowledgements.plist */,
+				800D2DABE37DAA4D7A95581CF520010E /* Pods-StompClientLib_Example-dummy.m */,
+				7D4BBB3BF1EA77A9712324818233E07E /* Pods-StompClientLib_Example-frameworks.sh */,
+				965A8C347D8A66F1318A21DC914F1104 /* Pods-StompClientLib_Example-Info.plist */,
+				352E3145E63342FBE26A9CB5CC7E0E55 /* Pods-StompClientLib_Example-umbrella.h */,
+				13D97DCFB8796F0973A15718D1799A5C /* Pods-StompClientLib_Example.debug.xcconfig */,
+				7AB9B8DBBD6C8AED721F2AF3DB9FE3F1 /* Pods-StompClientLib_Example.release.xcconfig */,
 			);
 			name = "Pods-StompClientLib_Example";
 			path = "Target Support Files/Pods-StompClientLib_Example";
 			sourceTree = "<group>";
 		};
+		6B3D6200134E6F7D67ECE93A66741EB6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BD034980F421A95985E505EECE43E486 /* LICENSE */,
+				F0D960E02C3A8643C8D651F7267E60EF /* README.md */,
+				8A12244E33DB00265A911EEA8F2E2AA5 /* StompClientLib.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6F3AEEFBC3D57D7FCF2D5DE7EF0F242A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEB5E6EA43E44ECB551F6B39BA8B39F2 /* StompClientLib.modulemap */,
+				C12DEDC501FC8802E2CCCCDBF6400921 /* StompClientLib-dummy.m */,
+				13526D37F559195E7807047252CB7675 /* StompClientLib-Info.plist */,
+				DA834868F50EB5336BD122E164FF0369 /* StompClientLib-prefix.pch */,
+				0634A8CE429B07364F1A42368A790299 /* StompClientLib-umbrella.h */,
+				2AE8585B70A920F7D4A97756C5093F1A /* StompClientLib.debug.xcconfig */,
+				754373D2A56ED1BFE9F95DF3F18561BD /* StompClientLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/StompClientLib";
+			sourceTree = "<group>";
+		};
+		738AEAFC120FB0276E323CA757A8CAEA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5C08CAD0CBC231EA52ACA685475FED6 /* StompClientLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		81A81806582843B4ABE9F1DDD7BEB8BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				811666FBC93D5F468117372D03944992 /* SocketRocket.modulemap */,
+				F4BB500078F93946C3AB2BB7C33B5603 /* SocketRocket-dummy.m */,
+				0D374BF941D2EEA091A6B26D8557993F /* SocketRocket-Info.plist */,
+				783335BBA77CE3BED40F82A70250D107 /* SocketRocket-prefix.pch */,
+				7170E073E4B1CDDAB72607430B713FC0 /* SocketRocket-umbrella.h */,
+				73EFDEE8AC2AB29BBE9942D6C669FCC9 /* SocketRocket.debug.xcconfig */,
+				66E80201F9E2A81D4AF7DA344A57F7C2 /* SocketRocket.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SocketRocket";
+			sourceTree = "<group>";
+		};
+		84F34EABADC4425D0B6A066617C46D81 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5CA5607281B977E9F73E77EA51BCAFE7 /* CFNetwork.framework */,
+				2F8916CD1D3F2CBEE911D94D346FC9DC /* Foundation.framework */,
+				B6686B131596461C96AAADDADF0DC2C0 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9E4B8E53764A03C2658ED46CCA43B5EC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				517AB98C56D492D4B230E5B2BEC75C16 /* Pods-StompClientLib_Example */,
+				C22266ED8459A09BBB7268B4EC8C9883 /* Pods-StompClientLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B4D9CF15DCD2DE97F90D2AD27F0F7898 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2081C1EE39F0EF64CC88A8369CE54BDB /* Pods_StompClientLib_Example.framework */,
+				32A79104B6DD4E7BE2C10043730C6EFF /* Pods_StompClientLib_Tests.framework */,
+				85A01882ED06DFEA2E0CE78BCDB204A7 /* SocketRocket.framework */,
+				38C59ADED07962C73869AEE77E82DD87 /* StompClientLib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C22266ED8459A09BBB7268B4EC8C9883 /* Pods-StompClientLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4E44290CF4247847835147229CD0D088 /* Pods-StompClientLib_Tests.modulemap */,
+				F92B00797719CE31C220F87A05001950 /* Pods-StompClientLib_Tests-acknowledgements.markdown */,
+				9299411DF93F1646A3489C68307215F6 /* Pods-StompClientLib_Tests-acknowledgements.plist */,
+				1237A52F1B030A0596A0987CC011FEC7 /* Pods-StompClientLib_Tests-dummy.m */,
+				DE46D491A8F201B0F61FCD2B86F5A988 /* Pods-StompClientLib_Tests-frameworks.sh */,
+				8D887D8790B7C4FF2201E2E3A0592F4C /* Pods-StompClientLib_Tests-Info.plist */,
+				A10B01F9904E7EF40129397EAA0DE5B4 /* Pods-StompClientLib_Tests-umbrella.h */,
+				5ADB7FEE8478CED9B87CA2279ECC86FF /* Pods-StompClientLib_Tests.debug.xcconfig */,
+				1F327C5E4CABBAE9134100DE9B6303F8 /* Pods-StompClientLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-StompClientLib_Tests";
+			path = "Target Support Files/Pods-StompClientLib_Tests";
+			sourceTree = "<group>";
+		};
+		C2B2BA8923EDD61AE0DABFE479EC8618 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEC4266160F6F383B1D76EEE2FBB170C /* SocketRocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5C08CAD0CBC231EA52ACA685475FED6 /* StompClientLib */ = {
+			isa = PBXGroup;
+			children = (
+				931A7784E8D5C69918AA5FA56545DD55 /* StompClientLib.swift */,
+				6B3D6200134E6F7D67ECE93A66741EB6 /* Pod */,
+				6F3AEEFBC3D57D7FCF2D5DE7EF0F242A /* Support Files */,
+			);
+			name = StompClientLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CEC4266160F6F383B1D76EEE2FBB170C /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				8832809CE6F5ABF08E5916C5E907EC16 /* SocketRocket.h */,
+				83670A4972B101D85A1DADD0862004FF /* SRWebSocket.h */,
+				1E7452C239F5CF1A5F27DCC1EF435B0B /* SRWebSocket.m */,
+				81A81806582843B4ABE9F1DDD7BEB8BB /* Support Files */,
+			);
+			name = SocketRocket;
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				738AEAFC120FB0276E323CA757A8CAEA /* Development Pods */,
+				09F3E6A1737F6BAC5C6BB2A9EAE1C413 /* Frameworks */,
+				C2B2BA8923EDD61AE0DABFE479EC8618 /* Pods */,
+				B4D9CF15DCD2DE97F90D2AD27F0F7898 /* Products */,
+				9E4B8E53764A03C2658ED46CCA43B5EC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2E2F1ADF18F987AE5CC64FC57CAEE3EB /* Headers */ = {
+		17BA34119E6FD4CDB922FEF45E0884DA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89B5A9DFD6D27A4C404F6075B7635997 /* StompClientLib-umbrella.h in Headers */,
+				F1673306D2528E24477E098832882D05 /* SocketRocket-umbrella.h in Headers */,
+				778D0B3A3BFC6B74234D39F9EDCF3659 /* SocketRocket.h in Headers */,
+				9E2B1AC4FC728208BB79B52BFEB2D78F /* SRWebSocket.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34F0F66D2BB4320A6026DFD12B322E21 /* Headers */ = {
+		19AF7E6162FE9D7986D0C7CBA5B2B59C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D39570908C3DCF5D8D39150D677F48F6 /* Pods-StompClientLib_Tests-umbrella.h in Headers */,
+				9C49D3B0A5493179743E40127BFCD5C7 /* Pods-StompClientLib_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7461DE9EE4D27D0E2BB29EBFDD0B5F38 /* Headers */ = {
+		1F7C49AB0B084C137738708B255A238F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F01D83724433B88476BB3FEB2856E46 /* SocketRocket-umbrella.h in Headers */,
-				0393443474587D3175DD26E980D5C2A7 /* SocketRocket.h in Headers */,
-				4B34E4FBB4139C9E9A77BD7FB18A0686 /* SRWebSocket.h in Headers */,
+				29011FE74D1A5F88CE016BD016D0AB27 /* Pods-StompClientLib_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85E1FDAA103892D901FB2772B199BE21 /* Headers */ = {
+		474408D4E634B630CD98687341B6D65C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC34B830DAFD323B2890473CF3014DB5 /* Pods-StompClientLib_Example-umbrella.h in Headers */,
+				BC8A57A47046D234DC6203EA22B36A26 /* StompClientLib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		76E7308A8059D57433F7064E22F40536 /* SocketRocket */ = {
+		1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A70EF65271882F830E6C529F8994DF6 /* Build configuration list for PBXNativeTarget "SocketRocket" */;
+			buildConfigurationList = 7578135F0A9991A7E2A8B169207EBA17 /* Build configuration list for PBXNativeTarget "SocketRocket" */;
 			buildPhases = (
-				84CA4A58728613205F5B0E1706D1BCBB /* Sources */,
-				525807D8C19FBFFBB75564EA0924BE4B /* Frameworks */,
-				7461DE9EE4D27D0E2BB29EBFDD0B5F38 /* Headers */,
+				17BA34119E6FD4CDB922FEF45E0884DA /* Headers */,
+				DB50286F169C0450B2990CE14479F856 /* Sources */,
+				56AC35E789C811CE09501582CCA2174A /* Frameworks */,
+				A6620E44D4248429BD059BDB7FBF21F9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -352,79 +375,78 @@
 			);
 			name = SocketRocket;
 			productName = SocketRocket;
-			productReference = B7FB240AB165387D7171E2EE786D0C21 /* SocketRocket.framework */;
+			productReference = 85A01882ED06DFEA2E0CE78BCDB204A7 /* SocketRocket.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B831C80B9164D5EA5477BA5B1F1AF683 /* StompClientLib */ = {
+		489DE27A0D31363A4636F8DBAC214112 /* Pods-StompClientLib_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A7900F1505A31A4D833E2F71291DFB8 /* Build configuration list for PBXNativeTarget "StompClientLib" */;
+			buildConfigurationList = 487C9F1F2CA7A0ED179F0A46CF0BC996 /* Build configuration list for PBXNativeTarget "Pods-StompClientLib_Tests" */;
 			buildPhases = (
-				184542DDEC182FD17886D9B9BCB22F06 /* Sources */,
-				6922A9995258DA1711A6B257621048C5 /* Frameworks */,
-				2E2F1ADF18F987AE5CC64FC57CAEE3EB /* Headers */,
+				19AF7E6162FE9D7986D0C7CBA5B2B59C /* Headers */,
+				A00E298163C7C0D6B0E6A467A6DC2AC0 /* Sources */,
+				E498F374778E40F52FB0275027475D24 /* Frameworks */,
+				B9CC2F8F2F3C53C7B57CA817134C4046 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				62FE87E776CF978EDF62C1ECF4AF6EB9 /* PBXTargetDependency */,
-			);
-			name = StompClientLib;
-			productName = StompClientLib;
-			productReference = 06FA0348E6D3CA5B6645DD7838DC92D0 /* StompClientLib.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		EB59CF33C66A62D1C28AA5C2332836E8 /* Pods-StompClientLib_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B22FDC27B3F4B1A3CBEC79CFBF71669E /* Build configuration list for PBXNativeTarget "Pods-StompClientLib_Tests" */;
-			buildPhases = (
-				9A8F2DED762FB3892DF9D708178F3BE2 /* Sources */,
-				E95E3EBDF7DC4395A9BB91836FD8251C /* Frameworks */,
-				34F0F66D2BB4320A6026DFD12B322E21 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1A843634CAFE8FF91BD9C4B5A1584375 /* PBXTargetDependency */,
+				AF7DCAB9C6503714212B72B329067DD0 /* PBXTargetDependency */,
+				9FEFC166E1559A943AD04313FAA1D0DA /* PBXTargetDependency */,
 			);
 			name = "Pods-StompClientLib_Tests";
 			productName = "Pods-StompClientLib_Tests";
-			productReference = 90097BC5289334845AF0830CB6DBBF68 /* Pods_StompClientLib_Tests.framework */;
+			productReference = 32A79104B6DD4E7BE2C10043730C6EFF /* Pods_StompClientLib_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F9C9F66ABF0EF2126C8728B022B63633 /* Pods-StompClientLib_Example */ = {
+		BD357877094CC6561657F2D15837D659 /* StompClientLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07181177DE41618207315F320F70293A /* Build configuration list for PBXNativeTarget "Pods-StompClientLib_Example" */;
+			buildConfigurationList = B26376CE241D66B98A36D674A3CAD0A6 /* Build configuration list for PBXNativeTarget "StompClientLib" */;
 			buildPhases = (
-				771B8E9F52C66EFDF22BC4FB64301DF5 /* Sources */,
-				108D7A79C55113F77B2134AA052C21A4 /* Frameworks */,
-				85E1FDAA103892D901FB2772B199BE21 /* Headers */,
+				474408D4E634B630CD98687341B6D65C /* Headers */,
+				DD37A95FF4A5CDD1CCE70CD9464E5935 /* Sources */,
+				48232FD7F3743D57DF16D7494B73FAC1 /* Frameworks */,
+				6DDAA893CF07D4E71856558028329A50 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B52BEAB7763E91ECB3401C6BFAA03A36 /* PBXTargetDependency */,
-				CFD28BD05DADDA7C17CFC48F2194F039 /* PBXTargetDependency */,
+				F1D9DD20E6E62EC5E15256715B836ACF /* PBXTargetDependency */,
+			);
+			name = StompClientLib;
+			productName = StompClientLib;
+			productReference = 38C59ADED07962C73869AEE77E82DD87 /* StompClientLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1A5776A8C3973BEF6B18390BAFE3713 /* Pods-StompClientLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 298F0A2CA87FBD174641B63A9CC0EA9D /* Build configuration list for PBXNativeTarget "Pods-StompClientLib_Example" */;
+			buildPhases = (
+				1F7C49AB0B084C137738708B255A238F /* Headers */,
+				D77A6418D90270611300E3DF3A785981 /* Sources */,
+				1DBAAC2F2729EC673A7D9A927AD1E75A /* Frameworks */,
+				78AA104E99527F4FEB60085A0A6C8A09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E02F01FCC5DE9C9C08328885AB8B8AA3 /* PBXTargetDependency */,
+				F7FE8750DC247A73ACDE4C38B066C6AE /* PBXTargetDependency */,
 			);
 			name = "Pods-StompClientLib_Example";
 			productName = "Pods-StompClientLib_Example";
-			productReference = 2D610DD16FD34911BAB325C4DD10EEB1 /* Pods_StompClientLib_Example.framework */;
+			productReference = 2081C1EE39F0EF64CC88A8369CE54BDB /* Pods_StompClientLib_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 1020;
-				TargetAttributes = {
-					B831C80B9164D5EA5477BA5B1F1AF683 = {
-						LastSwiftMigration = 1020;
-					};
-				};
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -432,151 +454,124 @@
 				en,
 				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7142661ED2A3A80C41B0D6E67D0573A7 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B4D9CF15DCD2DE97F90D2AD27F0F7898 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F9C9F66ABF0EF2126C8728B022B63633 /* Pods-StompClientLib_Example */,
-				EB59CF33C66A62D1C28AA5C2332836E8 /* Pods-StompClientLib_Tests */,
-				76E7308A8059D57433F7064E22F40536 /* SocketRocket */,
-				B831C80B9164D5EA5477BA5B1F1AF683 /* StompClientLib */,
+				F1A5776A8C3973BEF6B18390BAFE3713 /* Pods-StompClientLib_Example */,
+				489DE27A0D31363A4636F8DBAC214112 /* Pods-StompClientLib_Tests */,
+				1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */,
+				BD357877094CC6561657F2D15837D659 /* StompClientLib */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		6DDAA893CF07D4E71856558028329A50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78AA104E99527F4FEB60085A0A6C8A09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6620E44D4248429BD059BDB7FBF21F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9CC2F8F2F3C53C7B57CA817134C4046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		184542DDEC182FD17886D9B9BCB22F06 /* Sources */ = {
+		A00E298163C7C0D6B0E6A467A6DC2AC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DBF30D0AC1BAB02D96FE152C3A3502C /* StompClientLib-dummy.m in Sources */,
-				AB421DE7D80F519BC1AA7C05D59E424F /* StompClientLib.swift in Sources */,
+				F3713C585C33E6E7B8920DC37A131C2F /* Pods-StompClientLib_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		771B8E9F52C66EFDF22BC4FB64301DF5 /* Sources */ = {
+		D77A6418D90270611300E3DF3A785981 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4A9644714E5DF928A6CE08676A5E4F4 /* Pods-StompClientLib_Example-dummy.m in Sources */,
+				90D1093BB7E8EC77C298E03F92E8E336 /* Pods-StompClientLib_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84CA4A58728613205F5B0E1706D1BCBB /* Sources */ = {
+		DB50286F169C0450B2990CE14479F856 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1275DABFC1FC4FFC33177F8792D386AB /* SocketRocket-dummy.m in Sources */,
-				9502E59ED0E837FA050AD4A7AFB11B1E /* SRWebSocket.m in Sources */,
+				735DFE5216ED66A16259B56CAB3B46CF /* SocketRocket-dummy.m in Sources */,
+				73B4B4972C5D3416AA4F2C65F5BE3305 /* SRWebSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A8F2DED762FB3892DF9D708178F3BE2 /* Sources */ = {
+		DD37A95FF4A5CDD1CCE70CD9464E5935 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83878A94EECA802E52404A1108FFEB32 /* Pods-StompClientLib_Tests-dummy.m in Sources */,
+				F4ABC50E363C22D7AD42EEF51FD005C6 /* StompClientLib-dummy.m in Sources */,
+				48183283577944F747ACADF42FA13033 /* StompClientLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1A843634CAFE8FF91BD9C4B5A1584375 /* PBXTargetDependency */ = {
+		9FEFC166E1559A943AD04313FAA1D0DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SocketRocket;
-			target = 76E7308A8059D57433F7064E22F40536 /* SocketRocket */;
-			targetProxy = 7778CE6999BDB5667251B7E4FEA5C084 /* PBXContainerItemProxy */;
+			target = 1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */;
+			targetProxy = 3548B2DA3DEAD81FAC2A212450475408 /* PBXContainerItemProxy */;
 		};
-		62FE87E776CF978EDF62C1ECF4AF6EB9 /* PBXTargetDependency */ = {
+		AF7DCAB9C6503714212B72B329067DD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-StompClientLib_Example";
+			target = F1A5776A8C3973BEF6B18390BAFE3713 /* Pods-StompClientLib_Example */;
+			targetProxy = 19BC17B49C9966213C32E39617C73412 /* PBXContainerItemProxy */;
+		};
+		E02F01FCC5DE9C9C08328885AB8B8AA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SocketRocket;
-			target = 76E7308A8059D57433F7064E22F40536 /* SocketRocket */;
-			targetProxy = 3E1C5A268F095880499E61249E4EC145 /* PBXContainerItemProxy */;
+			target = 1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */;
+			targetProxy = 4CADB67D65B2FAA4EE015B384944204E /* PBXContainerItemProxy */;
 		};
-		B52BEAB7763E91ECB3401C6BFAA03A36 /* PBXTargetDependency */ = {
+		F1D9DD20E6E62EC5E15256715B836ACF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SocketRocket;
-			target = 76E7308A8059D57433F7064E22F40536 /* SocketRocket */;
-			targetProxy = A81DCC13E55DD640E8FDD84BF5EFF508 /* PBXContainerItemProxy */;
+			target = 1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */;
+			targetProxy = D28A8ECDF98768F08751A249E2B24617 /* PBXContainerItemProxy */;
 		};
-		CFD28BD05DADDA7C17CFC48F2194F039 /* PBXTargetDependency */ = {
+		F7FE8750DC247A73ACDE4C38B066C6AE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = StompClientLib;
-			target = B831C80B9164D5EA5477BA5B1F1AF683 /* StompClientLib */;
-			targetProxy = 34D9A7FFE82910697AC5E46A04D93435 /* PBXContainerItemProxy */;
+			target = BD357877094CC6561657F2D15837D659 /* StompClientLib */;
+			targetProxy = E23D527D1305D738B109B7241A7A8E28 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2232C4A7E6721DDF2FA08C1DDFD2C3C4 /* Debug */ = {
+		295B27BC08B91AB1F66F0AED1FEA6167 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FAFC896148BAC2B2B61C2F118AFF3FB /* SocketRocket.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SocketRocket/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
-				PRODUCT_NAME = SocketRocket;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3D7631AA1532F4EEEB06F57E3D48AA19 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16B9767AB407DD1C6D94745A72E15562 /* Pods-StompClientLib_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-StompClientLib_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StompClientLib_Example/Pods-StompClientLib_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_StompClientLib_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5D34F4769C7D60CD79040C989AE9786D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 599AAA7892FDB3B2153C7652091BA5B7 /* StompClientLib.xcconfig */;
+			baseConfigurationReference = 754373D2A56ED1BFE9F95DF3F18561BD /* StompClientLib.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -588,27 +583,29 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/StompClientLib/StompClientLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StompClientLib/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/StompClientLib/StompClientLib-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/StompClientLib/StompClientLib.modulemap";
+				PRODUCT_MODULE_NAME = StompClientLib;
 				PRODUCT_NAME = StompClientLib;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		8B0CA3C76D3DCE938F76149A4CE35F58 /* Release */ = {
+		33EB0CE413C855850A44920E254F52F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF798D1A9CCC4CAF5F878F248D6D405D /* Pods-StompClientLib_Example.release.xcconfig */;
+			baseConfigurationReference = 13D97DCFB8796F0973A15718D1799A5C /* Pods-StompClientLib_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -618,7 +615,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-StompClientLib_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-StompClientLib_Example/Pods-StompClientLib_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -628,41 +625,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_StompClientLib_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		98AB901895AEFE3376FB878EF047699D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E5C013CFD3498C6DA4D139EE72CABC0 /* Pods-StompClientLib_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-StompClientLib_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StompClientLib_Tests/Pods-StompClientLib_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_StompClientLib_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -671,50 +634,17 @@
 			};
 			name = Debug;
 		};
-		A86626C72DAD77D1D8B7D899D61ADD89 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C476E6E30888F793733CFA76B788F6B2 /* Pods-StompClientLib_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-StompClientLib_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StompClientLib_Tests/Pods-StompClientLib_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_StompClientLib_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -736,7 +666,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -755,58 +684,27 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		B4F6E5A247F5D90D5BC8A76E83AE4710 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 599AAA7892FDB3B2153C7652091BA5B7 /* StompClientLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StompClientLib/StompClientLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StompClientLib/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/StompClientLib/StompClientLib.modulemap";
-				PRODUCT_NAME = StompClientLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -828,7 +726,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -849,20 +746,122 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		F2B857093EB3A3BE18E29C7EE2FBB6CB /* Release */ = {
+		9678B06BEF1275BC464D20403014A98C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FAFC896148BAC2B2B61C2F118AFF3FB /* SocketRocket.xcconfig */;
+			baseConfigurationReference = 5ADB7FEE8478CED9B87CA2279ECC86FF /* Pods-StompClientLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StompClientLib_Tests/Pods-StompClientLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StompClientLib_Tests/Pods-StompClientLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9969E914C0C74CA1553F9208F2398211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB9B8DBBD6C8AED721F2AF3DB9FE3F1 /* Pods-StompClientLib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StompClientLib_Example/Pods-StompClientLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StompClientLib_Example/Pods-StompClientLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BBBE5C9B7B50A07415FCA54D0A2C5002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F327C5E4CABBAE9134100DE9B6303F8 /* Pods-StompClientLib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StompClientLib_Tests/Pods-StompClientLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StompClientLib_Tests/Pods-StompClientLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4C49DD73A24F75C454B25F85D078A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E80201F9E2A81D4AF7DA344A57F7C2 /* SocketRocket.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -874,16 +873,17 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SocketRocket/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/SocketRocket/SocketRocket-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
+				PRODUCT_MODULE_NAME = SocketRocket;
 				PRODUCT_NAME = SocketRocket;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -891,55 +891,117 @@
 			};
 			name = Release;
 		};
+		EB9004D041B89F0ABCB3D8EBFCB2968A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AE8585B70A920F7D4A97756C5093F1A /* StompClientLib.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StompClientLib/StompClientLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StompClientLib/StompClientLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StompClientLib/StompClientLib.modulemap";
+				PRODUCT_MODULE_NAME = StompClientLib;
+				PRODUCT_NAME = StompClientLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA737D03844CB85AF137FCD4E8B26827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73EFDEE8AC2AB29BBE9942D6C669FCC9 /* SocketRocket.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocketRocket/SocketRocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
+				PRODUCT_MODULE_NAME = SocketRocket;
+				PRODUCT_NAME = SocketRocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07181177DE41618207315F320F70293A /* Build configuration list for PBXNativeTarget "Pods-StompClientLib_Example" */ = {
+		298F0A2CA87FBD174641B63A9CC0EA9D /* Build configuration list for PBXNativeTarget "Pods-StompClientLib_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D7631AA1532F4EEEB06F57E3D48AA19 /* Debug */,
-				8B0CA3C76D3DCE938F76149A4CE35F58 /* Release */,
+				33EB0CE413C855850A44920E254F52F0 /* Debug */,
+				9969E914C0C74CA1553F9208F2398211 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A70EF65271882F830E6C529F8994DF6 /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2232C4A7E6721DDF2FA08C1DDFD2C3C4 /* Debug */,
-				F2B857093EB3A3BE18E29C7EE2FBB6CB /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		487C9F1F2CA7A0ED179F0A46CF0BC996 /* Build configuration list for PBXNativeTarget "Pods-StompClientLib_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
-				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+				9678B06BEF1275BC464D20403014A98C /* Debug */,
+				BBBE5C9B7B50A07415FCA54D0A2C5002 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A7900F1505A31A4D833E2F71291DFB8 /* Build configuration list for PBXNativeTarget "StompClientLib" */ = {
+		7578135F0A9991A7E2A8B169207EBA17 /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D34F4769C7D60CD79040C989AE9786D /* Debug */,
-				B4F6E5A247F5D90D5BC8A76E83AE4710 /* Release */,
+				FA737D03844CB85AF137FCD4E8B26827 /* Debug */,
+				C4C49DD73A24F75C454B25F85D078A9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B22FDC27B3F4B1A3CBEC79CFBF71669E /* Build configuration list for PBXNativeTarget "Pods-StompClientLib_Tests" */ = {
+		B26376CE241D66B98A36D674A3CAD0A6 /* Build configuration list for PBXNativeTarget "StompClientLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				98AB901895AEFE3376FB878EF047699D /* Debug */,
-				A86626C72DAD77D1D8B7D899D61ADD89 /* Release */,
+				EB9004D041B89F0ABCB3D8EBFCB2968A /* Debug */,
+				295B27BC08B91AB1F66F0AED1FEA6167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

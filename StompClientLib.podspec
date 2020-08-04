@@ -31,8 +31,8 @@ Simple STOMP Client library, Swift 3, 4, 4.2, 5 compatible. STOMP Protocol let t
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'StompClientLib/Classes/**/*'
-  
+  s.source_files = 'Sources/StompClientLib/Classes/**/*'
+
   # s.resource_bundles = {
   #   'StompClientLib' => ['StompClientLib/Assets/*.png']
   # }
